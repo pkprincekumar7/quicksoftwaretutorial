@@ -1,0 +1,71 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid common-background-color">
+
+  <div ng-include="'app/view/header.html'"></div>
+
+    <!-- <ul class="breadcrumb">
+        <li><a href="#">Home</a></li>
+    </ul> -->
+    <div class="demo-container demo-container-style">
+      	<p class="whiteStyle font-size-breadcrumb">
+			&nbsp;
+			<a href="#homepage">Home</a> > 
+			<a href="#java">Java</a> > 
+			<a href="#corejava">Core Java</a> > 
+			<a href="#corejava/dclraccessctrl">Declaration, Access Control</a> >
+		</p>
+		<p class="whiteStyle font-size-title">&nbsp;Core Java - Declaration, Access Control</p>
+	  	<div class="container-fluid whiteStyle">
+		  <!-- <div class="jumbotron">
+		    <h1>My First Bootstrap Page</h1>
+		    <p>Resize this responsive page to see the effect!</p>
+		  </div> -->
+		  <div class="row roundBorderStyle">
+		  	<div class="col-xs-12">
+	          <div class="sidePanelForCode">
+	    	    <div class="sidePanelForCodeBlock">
+
+	    	      <pre>
+class Prince {
+  public static void main(String args[]) {
+    System.out.println("Hello Java");
+  }
+}
+				  </pre>
+
+	            </div>
+	            <div class="sidePanelDividerBlock">
+	          	  <div class="sidePanelDividerExpColBlock">
+	          	  </div>
+	            </div>
+	            <div class="sidePanelForTreeBlock">
+
+	            	<!-- test tree view - start -->
+					<div
+					  data-angular-treeview="true"
+					  data-tree-id="mytree"
+					  data-tree-model="roleList">
+					</div>
+					<!-- test tree view - end -->
+
+	            </div>
+	          </div>
+	          <div class="sidePanelDivider">
+	          	<div class="sidePanelDividerExtCol">
+	          	</div>
+	          </div>
+		      <pre id="codeBlock">
+class Kumar {
+  public static void main(String args[]) {
+    System.out.println("Hello Java");
+  }
+}
+		      </pre>
+		    </div>
+		  </div>
+		</div>
+    </div>
+  </div>
+</nav>
+
+<div ng-include="'app/view/footer.html'"></div>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport"
+          content="width = device-width, initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no"/>
+    <title>Sales Rep App</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/footable.core.css" rel="stylesheet">
+    <link href="css/footable.metro.css" rel="stylesheet">
+    <link href="css/footable-demos.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/app-tree.css" rel="stylesheet">
+
+    <script src="lib/jquery-2.1.4.min.js"></script>
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="lib/footable.js"></script>
+    <script src="lib/footable.sort.js"></script>
+    <script src="lib/footable.filter.js"></script>
+    <script src="lib/footable.paginate.js"></script>
+    <script src="lib/bootstrap-tab.js" type="text/javascript"></script>
+    <script src="lib/demos.js" type="text/javascript"></script>
+    <script src="css/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+    <script src="lib/angular-tree-view.js"></script>
+
+    <script src="app/app.js"></script>
+
+    <script src="app/app_folders/app_java/app-java.js"></script>
+    <script src="app/app_folders/app_java/app-core-java.js"></script>
+    <script src="app/app_folders/app_java/app-advance-java.js"></script>
+
+    <script src="app/app_folders/app_html/app-html.js"></script>
+    <script src="app/app_folders/app_html/app-html4.js"></script>
+    <script src="app/app_folders/app_html/app-html5.js"></script>
+
+    <script src="app/app_folders/app_css/app-css.js"></script>
+    <script src="app/app_folders/app_css/app-css2.js"></script>
+    <script src="app/app_folders/app_css/app-css3.js"></script>
+
+    <script src="app/app_folders/app_javascript/app-javascript.js"></script>
+    <script src="app/app_folders/app_ajax/app-ajax.js"></script>
+    <script src="app/app_folders/app_bootstrap/app-bootstrap.js"></script>
+    <script src="app/app_folders/app_jquery/app-jquery.js"></script>
+    <script src="app/app_folders/app_angularjs/app-angularjs.js"></script>
+
+    <script src="app/app_folders/app_extjs/app-extjs.js"></script>
+    <script src="app/app_folders/app_extjs/app-extjs4.js"></script>
+    <script src="app/app_folders/app_extjs/app-extjs5.js"></script>
+
+    <script src="app/app_folders/app_emberjs/app-emberjs.js"></script>
+    <script src="app/app_folders/app_requirejs/app-requirejs.js"></script>
+    <script src="app/app_folders/app_gruntjs/app-gruntjs.js"></script>
+    <script src="app/app_folders/app_nodejs/app-nodejs.js"></script>
+    <script src="app/app_folders/app_servlet/app-servlet.js"></script>
+    <script src="app/app_folders/app_jsp/app-jsp.js"></script>
+
+    <script src="app/app_folders/app_spring/app-spring.js"></script>
+    <script src="app/app_folders/app_spring/app-spring-core.js"></script>
+    <script src="app/app_folders/app_spring/app-spring-context.js"></script>
+    <script src="app/app_folders/app_spring/app-spring-dao.js"></script>
+    <script src="app/app_folders/app_spring/app-spring-orm.js"></script>
+    <script src="app/app_folders/app_spring/app-spring-aop.js"></script>
+    <script src="app/app_folders/app_spring/app-spring-mvc.js"></script>
+    <script src="app/app_folders/app_spring/app-spring-rest-webservices.js"></script>
+
+    <script src="app/app_folders/app_struts/app-struts.js"></script>
+    <script src="app/app_folders/app_hibernate/app-hibernate.js"></script>
+    <script src="app/app_folders/app_jsf/app-jsf.js"></script>
+    <script src="app/app_folders/app_jpa/app-jpa.js"></script>
+    <script src="app/app_folders/app_sql/app-sql.js"></script>
+    <script src="app/app_folders/app_plsql/app-plsql.js"></script>
+
+
+
+
+    <script src="app/controller/homepage-controller.js"></script>
+
+    <script src="app/controller/java/java-controller.js"></script>
+    <script src="app/controller/java/core-java/core-java-controller.js"></script>
+    <script src="app/controller/java/core-java/core-java-introduction-controller.js"></script>
+    <script src="app/controller/java/core-java/core-java-declaration-access-control-controller.js"></script>
+    <script src="app/controller/java/advance-java/advance-java-controller.js"></script>
+
+    <script src="app/controller/html/html-controller.js"></script>
+    <script src="app/controller/html/html4/html4-controller.js"></script>
+    <script src="app/controller/html/html5/html5-controller.js"></script>
+
+    <script src="app/controller/css/css-controller.js"></script>
+    <script src="app/controller/css/css2/css2-controller.js"></script>
+    <script src="app/controller/css/css3/css3-controller.js"></script>
+
+    <script src="app/controller/javascript/javascript-controller.js"></script>
+    <script src="app/controller/ajax/ajax-controller.js"></script>
+    <script src="app/controller/bootstrap/bootstrap-controller.js"></script>
+    <script src="app/controller/jquery/jquery-controller.js"></script>
+    <script src="app/controller/angularjs/angularjs-controller.js"></script>
+
+    <script src="app/controller/extjs/extjs-controller.js"></script>
+    <script src="app/controller/extjs/extjs4/extjs4-controller.js"></script>
+    <script src="app/controller/extjs/extjs5/extjs5-controller.js"></script>
+
+    <script src="app/controller/emberjs/emberjs-controller.js"></script>
+    <script src="app/controller/requirejs/requirejs-controller.js"></script>
+    <script src="app/controller/gruntjs/gruntjs-controller.js"></script>
+    <script src="app/controller/nodejs/nodejs-controller.js"></script>
+    <script src="app/controller/servlet/servlet-controller.js"></script>
+    <script src="app/controller/jsp/jsp-controller.js"></script>
+
+    <script src="app/controller/spring/spring-controller.js"></script>
+    <script src="app/controller/spring/core/spring-core-controller.js"></script>
+    <script src="app/controller/spring/context/spring-context-controller.js"></script>
+    <script src="app/controller/spring/dao/spring-dao-controller.js"></script>
+    <script src="app/controller/spring/orm/spring-orm-controller.js"></script>
+    <script src="app/controller/spring/aop/spring-aop-controller.js"></script>
+    <script src="app/controller/spring/mvc/spring-mvc-controller.js"></script>
+    <script src="app/controller/spring/rest-webservices/spring-rest-webservices-controller.js"></script>
+
+    <script src="app/controller/struts/struts-controller.js"></script>
+
+    <script src="app/controller/hibernate/hibernate-controller.js"></script>
+    <script src="app/controller/hibernate/introduction/introduction-controller.js"></script>
+    <script src="app/controller/hibernate/architecture/architecture-controller.js"></script>
+    <script src="app/controller/hibernate/architecture/diagram/diagram-controller.js"></script>
+    <script src="app/controller/hibernate/architecture/configuration/configuration-controller.js"></script>
+    <script src="app/controller/hibernate/architecture/sessionfactory/sessionfactory-controller.js"></script>
+    <script src="app/controller/hibernate/architecture/session/session-controller.js"></script>
+    <script src="app/controller/hibernate/architecture/transaction/transaction-controller.js"></script>
+    <script src="app/controller/hibernate/sample_application/sample-application-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_annotation/hibernate-annotation-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_dialects/hibernate-dialects-controller.js"></script>
+    <script src="app/controller/hibernate/generator_classes/generator-classes-controller.js"></script>
+    <script src="app/controller/hibernate/generator_classes/introduction/generator-introduction-controller.js"></script>
+    <script src="app/controller/hibernate/generator_classes/assigned/assigned-controller.js"></script>
+    <script src="app/controller/hibernate/generator_classes/increment/increment-controller.js"></script>
+    <script src="app/controller/hibernate/generator_classes/sequence/sequence-controller.js"></script>
+    <script src="app/controller/hibernate/generator_classes/hilo/hilo-controller.js"></script>
+    <script src="app/controller/hibernate/generator_classes/native/native-controller.js"></script>
+    <script src="app/controller/hibernate/generator_classes/identity/identity-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_mapping/hibernate-mapping-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_mapping/introduction/mapping-introduction-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_mapping/mapping_files/mapping-files-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_mapping/mapping_types/mapping-types-controller.js"></script>
+    <script src="app/controller/hibernate/collection_mapping/collection-mapping-controller.js"></script>
+    <script src="app/controller/hibernate/collection_mapping/list/list-controller.js"></script>
+    <script src="app/controller/hibernate/collection_mapping/set/set-controller.js"></script>
+    <script src="app/controller/hibernate/collection_mapping/sortedset/sortedset-controller.js"></script>
+    <script src="app/controller/hibernate/collection_mapping/map/map-controller.js"></script>
+    <script src="app/controller/hibernate/collection_mapping/sortedmap/sortedmap-controller.js"></script>
+    <script src="app/controller/hibernate/collection_mapping/collection/collection-controller.js"></script>
+    <script src="app/controller/hibernate/association_mapping/association-mapping-controller.js"></script>
+    <script src="app/controller/hibernate/association_mapping/one_to_one_mapping/one-to-one-mapping-controller.js"></script>
+    <script src="app/controller/hibernate/association_mapping/many_to_one_mapping/many-to-one-mapping-controller.js"></script>
+    <script src="app/controller/hibernate/association_mapping/one_to_many_by_list/one-to-many-by-list-controller.js"></script>
+    <script src="app/controller/hibernate/association_mapping/one_to_many_by_bag/one-to-many-by-bag-controller.js"></script>
+    <script src="app/controller/hibernate/association_mapping/one_to_many_by_set/one-to-many-by-set-controller.js"></script>
+    <script src="app/controller/hibernate/association_mapping/one_to_many_by_map/one-to-many-by-map-controller.js"></script>
+    <script src="app/controller/hibernate/association_mapping/many_to_many_by_list/many-to-many-by-list-controller.js"></script>
+    <script src="app/controller/hibernate/association_mapping/many_to_many_by_bag/many-to-many-by-bag-controller.js"></script>
+    <script src="app/controller/hibernate/association_mapping/many_to_many_by_set/many-to-many-by-set-controller.js"></script>
+    <script src="app/controller/hibernate/association_mapping/many_to_many_by_map/many-to-many-by-map-controller.js"></script>
+    <script src="app/controller/hibernate/association_mapping/component_mapping/component-mapping-controller.js"></script>
+    <script src="app/controller/hibernate/inheritance/inheritance-controller.js"></script>
+    <script src="app/controller/hibernate/inheritance/introduction/inheritance-introduction-controller.js"></script>
+    <script src="app/controller/hibernate/inheritance/table_per_hierarchy/per-hierarchy-controller.js"></script>
+    <script src="app/controller/hibernate/inheritance/table_per_hierarchy/using_xml/per-hierarchy-xml-controller.js"></script>
+    <script src="app/controller/hibernate/inheritance/table_per_hierarchy/using_annotation/per-hierarchy-annotation-controller.js"></script>
+    <script src="app/controller/hibernate/inheritance/table_per_concrete/per-concrete-controller.js"></script>
+    <script src="app/controller/hibernate/inheritance/table_per_concrete/using_xml/per-concrete-xml-controller.js"></script>
+    <script src="app/controller/hibernate/inheritance/table_per_concrete/using_annotation/per-concrete-annotation-controller.js"></script>
+    <script src="app/controller/hibernate/inheritance/table_per_subclass/per-subclass-controller.js"></script>
+    <script src="app/controller/hibernate/inheritance/table_per_subclass/using_xml/per-subclass-xml-controller.js"></script>
+    <script src="app/controller/hibernate/inheritance/table_per_subclass/using_annotation/per-subclass-annotation-controller.js"></script>
+    <script src="app/controller/hibernate/transaction_management/transaction-management-controller.js"></script>
+    <script src="app/controller/hibernate/criteria_query_language/criteria-query-controller.js"></script>
+    <script src="app/controller/hibernate/criteria_query_language/introduction/criteria-introduction-controller.js"></script>
+    <script src="app/controller/hibernate/criteria_query_language/criteria/criteria-controller.js"></script>
+    <script src="app/controller/hibernate/criteria_query_language/restrictions/restrictions-controller.js"></script>
+    <script src="app/controller/hibernate/criteria_query_language/projections/projections-controller.js"></script>
+    <script src="app/controller/hibernate/criteria_query_language/order/order-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_query_language/hibernate-query-language-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_named_query/hibernate-named-query-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_native_query/hibernate-native-query-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_caching/hibernate-caching-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_caching/introduction/caching-introduction-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_caching/first_level_caching/first-level-caching-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_caching/second_level_caching/second-level-caching-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_batch_processing/hibernate-batch-processing-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_integration/integration-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_integration/hibernate_with_spring/hibernate-with-spring-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_integration/hibernate_with_struts/hibernate-with-struts-controller.js"></script>
+    <script src="app/controller/hibernate/hibernate_integration/struts_spring_hibernate/struts-spring-hibernate-controller.js"></script>
+    <script src="app/controller/hibernate/quiz/quiz-controller.js"></script>
+    <script src="app/controller/hibernate/references/references-controller.js"></script>
+
+    <script src="app/controller/jsf/jsf-controller.js"></script>
+    <script src="app/controller/jpa/jpa-controller.js"></script>
+    <script src="app/controller/sql/sql-controller.js"></script>
+    <script src="app/controller/plsql/plsql-controller.js"></script>
+    <script src="lib/jquery.base64.min.js"></script>
+</head>
+
+<body ng-app="myApp">
+    <!-- <div style="text-align: center;">
+        <span style="font-size: 20px;">
+        </span>
+    </div> -->
+    <div class="page" ng-view>
+
+    </div>
+
+<!-- <footer style="background: #333; margin-top: -20px; border-radius: 5px; height:50px">
+  <p style="color: white"><br/>&nbsp;&nbsp;&nbsp;about us | contact us</p>
+</footer> -->
+</body>
+</html>

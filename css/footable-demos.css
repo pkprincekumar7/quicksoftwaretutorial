@@ -1,0 +1,62 @@
+body{
+    color:#2B2B2B;
+	font-family: 'trebuchet MS' , 'Lucida sans' , Arial;
+}
+
+    body.dark {
+        background: #444;
+        color:#ffd;
+    }
+	
+.demo-container {
+	/*margin:10px;*/
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+code {
+    background: #ddd;
+    padding:2px 5px;
+}
+
+.status-metro {
+    display: inline-block;
+    padding: 2px 5px;
+	color:#fff;
+}
+
+.status-metro.status-active {
+    background: #43c83c;
+}
+
+.status-metro.status-disabled {
+    background: #999999;
+}
+
+.status-metro.status-suspended {
+    background: #aa0000;
+}
+
+.status-metro.status-New {
+    background: #999999;
+}
+
+.status-metro.status-InProgress {
+    background: #43c83c;
+}
+
+.status-metro.status-OrderPlaced {
+    background: purple;
+}
+
+.status-metro.status-Support {
+    background: #0000aa;
+}
+
+.status-metro.status-Rejected {
+    background: #fa3031;
+}
+
+.foo-setup li {
+	margin-bottom:30px;
+}
