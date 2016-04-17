@@ -1,6 +1,7 @@
 var myApp = angular.module('myApp', ['ngRoute', 'angularTreeview']);
 
 //var baseUrl = 'http://localhost:8080';
+
 var baseViewPackage = './app/view/';
 
 myApp.config(function($routeProvider) {
